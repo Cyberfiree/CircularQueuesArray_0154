@@ -62,6 +62,15 @@ public:
             else
                 FRONT = FRONT + 1;
         }
+    }
+
+    void display() {
+        //Cek apakah antrian kosong
+        if (FRONT == -1) {
+            cout << "Queue is empty\n";
+            return;
+        }
+    }
 };
 
 
