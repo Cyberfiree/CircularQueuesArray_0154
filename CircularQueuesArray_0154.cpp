@@ -43,7 +43,7 @@ public:
 
     // Method untuk menghapus elemen dari queue
     void remove() {
-        // cek apakah antrian kosong
+        // cek apakah antrian kosong // ini
         if (FRONT == -1) {
             cout << "Queues Underflow\n";
             return;
