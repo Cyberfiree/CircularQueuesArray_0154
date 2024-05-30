@@ -40,6 +40,15 @@ public:
         }
         queues_array[REAR] = num; // Menambahkan elemen ke antrian
     }
+
+    // Method untuk menghapus elemen dari queue
+    void remove() {
+        // cek apakah antrian kosong
+        if (FRONT == -1) {
+            cout << "Queues Underflow\n";
+            return;
+        }
+        cout << "\nThe element deleted from the queue is : " << queues_array[FRONT] << "\n";
 };
 
 
